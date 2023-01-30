@@ -17,7 +17,11 @@ public class InstantiationExample {
      *
      * @return any object.
      */
+    public static void main(String[] args)
+    {
+        System.out.println("I am a Geek");
+    }
     public Object instantiateANewObject(){
-        return null;
+        return new String("Jyea");
     }
 }
